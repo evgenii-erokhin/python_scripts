@@ -1,0 +1,1 @@
+script for monitoring array of websites is up

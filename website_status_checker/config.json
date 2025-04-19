@@ -1,0 +1,10 @@
+{
+  "urls": [
+    "https://httpstat.us/200",
+    "https://httpstat.us/200?sleep=40000",
+    "https://httpstat.us/404",
+    "https://httpstat.us/500"
+
+  ],
+  "interval": 300
+}
