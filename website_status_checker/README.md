@@ -1,7 +1,8 @@
 ## Simple resource monitor
 
-This script checks the availability of a website every 5 minutes and sends notifications to Telegram chat if the status of a website has changed.
+This script checks the availability of the website every 5 minutes and sends notifications to the Telegram chat if the website status has changed from available to unavailable. And if the website is working again, the script notifies that the website is working again.
 
+This script can be used as a simple additional monitoring tool.
 ### Requirements
 - requests
 - python-dotenv
