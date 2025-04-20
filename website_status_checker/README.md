@@ -50,6 +50,17 @@ CHAT_ID=your_telegram_chat_id
 ```
 7. Run the script
 ```
-
 python3 ./python_scripts/website_status_checker/main.py
+```
+
+## Execute script in docker container:
+1. Build docker image
+```
+docker build -t website_status_checker .
+```
+
+2. Run docker container
+```
+
+docker run -e TOKEN=your-telegram-token -e CHAT_ID=your-chat-id website_status_checker
 ```
